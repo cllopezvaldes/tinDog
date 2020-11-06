@@ -1,0 +1,189 @@
+/* --------------------------------- Globals -------------------------------- */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-weight: 800;
+}
+
+p{
+    color: #707070f1;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+    
+}
+
+/* --------------------------------- Headings -------------------------------- */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* ------------------------------- Title Section------------------------------ */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* ----------------------------- Navigation Bar ----------------------------- */
+
+.navbar{
+    padding: 0 0 5.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* ---------------------------- Download Buttons ---------------------------- */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* ------------------------------ Features Section ----------------------------- */
+
+#features{
+    background-color: white;
+    position: relative;
+
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+    padding: 4%;
+}
+
+
+.icon{
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin: 1.2rem 0;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* -------------------------- Testimonials Section -------------------------- */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-text{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* ----------------------------- Pricing section ---------------------------- */
+
+#pricing{
+    padding: 10%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing h3{
+    margin-bottom: 1%;
+    } 
+.price-box{
+    padding: 3% 2%;
+}
+
+
+/* ----------------------------- Call to Action ----------------------------- */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+
+/* --------------------------------- Footer --------------------------------- */
+#footer{
+    background-color: #fff;
+    
+}
+.f-icon{
+    margin-left: 2%;
+}
+#footer p{
+    margin-top: 3%;
+}
+
+/* ---------------------------- Responsive Design --------------------------- */
+
+@media (max-width: 1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
